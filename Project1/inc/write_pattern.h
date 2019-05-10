@@ -1,0 +1,10 @@
+#include <stdint.h>
+#include <stdlib.h>
+int32_t write_pattern();
+uint32_t randomizer();
+int32_t *pattern_pointer;
+uint32_t pattern_offset;
+uint32_t length;
+uint32_t seed;
+int32_t writeindirectflag;
+int32_t writedirectflag;

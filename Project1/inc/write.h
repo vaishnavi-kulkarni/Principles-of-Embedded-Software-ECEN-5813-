@@ -1,0 +1,14 @@
+#include <stdint.h>
+#include <stdlib.h>
+int32_t write_memory();
+int32_t *write_pointer;
+uint32_t offset;
+uint64_t value;
+int32_t addressing_mode;
+int32_t *addressing_value;
+int32_t directflag;
+int32_t indirectflag;
+int32_t int_mem;
+int32_t valid_location_flag;
+int32_t *hold_pointer;
+int32_t *end_value;
