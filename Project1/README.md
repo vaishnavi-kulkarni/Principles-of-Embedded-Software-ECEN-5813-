@@ -1,7 +1,7 @@
 # Project1 
 ## Command line interface for memory manipulation
 
-###Project Description
+### Project Description
 We have developed this command line interface on a linux machhine for memory manipulation, It performs the following set of functions:
 
 help: Lists all the functions with a short description which allows user to easily navigate through this interface
@@ -14,4 +14,4 @@ write_pattern: Write a Pseudo random pattern in a specified area of memory
 verify_pattern: Verify a Pseudo random pattern in a specified area of memory
 quit: Quit the program and return to the command line
 
-Once this was up and running we have made certain modifications to run this on FRDM KL25Z. 
+we have made certain modifications to run this on FRDM KL25Z. The folder Arm version contains files for FRDM KL25Z
